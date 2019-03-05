@@ -1,0 +1,6 @@
+framework module Pods_WYNetWorkingUITests {
+  umbrella header "Pods-WYNetWorkingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

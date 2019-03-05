@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.23.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.16.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DownVideoViewController">
+            <connections>
+                <outlet property="down" destination="8uC-61-10p" id="RmS-qH-SpA"/>
+                <outlet property="playerView" destination="whB-vV-TQ6" id="obp-wb-8Ug"/>
+                <outlet property="slider" destination="aAm-k4-RYg" id="S6b-k9-YaQ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="whB-vV-TQ6">
+                    <rect key="frame" x="15" y="50" width="345" height="219.5"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="whB-vV-TQ6" secondAttribute="height" multiplier="343:218" id="hlb-CG-atP"/>
+                    </constraints>
+                </view>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="aAm-k4-RYg">
+                    <rect key="frame" x="28" y="329.5" width="319" height="31"/>
+                </slider>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uC-61-10p">
+                    <rect key="frame" x="150.5" y="419.5" width="74" height="34"/>
+                    <state key="normal" title="开始下载">
+                        <color key="titleColor" red="0.38999497119999998" green="1" blue="0.31996591689999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="down:" destination="-1" eventType="touchUpInside" id="jwf-Mi-SsR"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8uC-61-10p" firstAttribute="top" secondItem="aAm-k4-RYg" secondAttribute="bottom" constant="60" id="1Q5-lw-Fk7"/>
+                <constraint firstItem="aAm-k4-RYg" firstAttribute="top" secondItem="whB-vV-TQ6" secondAttribute="bottom" constant="60" id="CvX-y8-TF1"/>
+                <constraint firstItem="whB-vV-TQ6" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="15" id="Ee0-SG-ctK"/>
+                <constraint firstItem="8uC-61-10p" firstAttribute="centerX" secondItem="whB-vV-TQ6" secondAttribute="centerX" id="J0v-lP-DoX"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="aAm-k4-RYg" secondAttribute="trailing" constant="30" id="Puo-Wy-LDv"/>
+                <constraint firstItem="aAm-k4-RYg" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="30" id="h9f-fM-HeN"/>
+                <constraint firstItem="aAm-k4-RYg" firstAttribute="centerX" secondItem="whB-vV-TQ6" secondAttribute="centerX" id="nXx-eX-hwR"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="whB-vV-TQ6" secondAttribute="trailing" constant="15" id="tU2-wA-467"/>
+                <constraint firstItem="whB-vV-TQ6" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="30" id="xEy-hG-u7J"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="138.40000000000001" y="152.47376311844079"/>
+        </view>
+    </objects>
+</document>

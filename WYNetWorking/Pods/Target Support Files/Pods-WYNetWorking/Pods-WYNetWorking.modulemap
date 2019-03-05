@@ -1,0 +1,6 @@
+framework module Pods_WYNetWorking {
+  umbrella header "Pods-WYNetWorking-umbrella.h"
+
+  export *
+  module * { export * }
+}

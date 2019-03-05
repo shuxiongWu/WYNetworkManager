@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1744C24BFA6683CFE5A33E0C /* libPods-WYNetWorkingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A804E76A39B148DA3621EABF /* libPods-WYNetWorkingTests.a */; };
+		3745F3EA3E49D704A3138CC6 /* libPods-WYNetWorkingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F431EC1BEDAD9BF37ABA97 /* libPods-WYNetWorkingUITests.a */; };
+		53F27BE7E9D51A73B09C620E /* libPods-WYNetWorking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5E7FDD9A9E870B5741C5EB /* libPods-WYNetWorking.a */; };
+		8F151FDA2227D431008B974F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F151FD92227D431008B974F /* AppDelegate.m */; };
+		8F151FE22227D431008B974F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F151FE12227D431008B974F /* Assets.xcassets */; };
+		8F151FE52227D431008B974F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F151FE32227D431008B974F /* LaunchScreen.storyboard */; };
+		8F151FE82227D431008B974F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F151FE72227D431008B974F /* main.m */; };
+		8F151FF22227D432008B974F /* WYNetWorkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F151FF12227D432008B974F /* WYNetWorkingTests.m */; };
+		8F151FFD2227D432008B974F /* WYNetWorkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F151FFC2227D432008B974F /* WYNetWorkingUITests.m */; };
+		8F6D2DC82227D63500309E7F /* WYNetworkManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D2DC72227D63500309E7F /* WYNetworkManage.m */; };
+		8F6D2DCB2227D91700309E7F /* WYNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D2DCA2227D91700309E7F /* WYNetworkCache.m */; };
+		8F6D2EC022290A6700309E7F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D2EBE22290A6700309E7F /* HomeViewController.m */; };
+		8F6D2EC122290A6700309E7F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F6D2EBF22290A6700309E7F /* HomeViewController.xib */; };
+		8F6D2EC422290CE700309E7F /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D2EC322290CE700309E7F /* BaseNavigationViewController.m */; };
+		8F6D2EC822290E8A00309E7F /* RequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D2EC622290E8A00309E7F /* RequestViewController.m */; };
+		8F6D2EC922290E8A00309E7F /* RequestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F6D2EC722290E8A00309E7F /* RequestViewController.xib */; };
+		8F6D2ECD2229212800309E7F /* DownVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D2ECB2229212800309E7F /* DownVideoViewController.m */; };
+		8F6D2ECE2229212800309E7F /* DownVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F6D2ECC2229212800309E7F /* DownVideoViewController.xib */; };
+		8F6D8D09222E105000B3A5F8 /* UploadImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D8D07222E105000B3A5F8 /* UploadImageViewController.m */; };
+		8F6D8D0A222E105000B3A5F8 /* UploadImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F6D8D08222E105000B3A5F8 /* UploadImageViewController.xib */; };
+		8F6D8D0C222E116E00B3A5F8 /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F6D8D0B222E114C00B3A5F8 /* 123.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F151FEE2227D432008B974F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F151FCD2227D431008B974F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F151FD42227D431008B974F;
+			remoteInfo = WYNetWorking;
+		};
+		8F151FF92227D432008B974F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F151FCD2227D431008B974F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F151FD42227D431008B974F;
+			remoteInfo = WYNetWorking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23F431EC1BEDAD9BF37ABA97 /* libPods-WYNetWorkingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYNetWorkingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DDADDDF315E90BCD49EFA9 /* Pods-WYNetWorkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYNetWorkingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYNetWorkingTests/Pods-WYNetWorkingTests.release.xcconfig"; sourceTree = "<group>"; };
+		66EF645CCA6071F2D34C7027 /* Pods-WYNetWorking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYNetWorking.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYNetWorking/Pods-WYNetWorking.release.xcconfig"; sourceTree = "<group>"; };
+		6A5F750E74887A3037770B39 /* Pods-WYNetWorkingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYNetWorkingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYNetWorkingUITests/Pods-WYNetWorkingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6DBBF351E21B0C5F42BDD57F /* Pods-WYNetWorking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYNetWorking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYNetWorking/Pods-WYNetWorking.debug.xcconfig"; sourceTree = "<group>"; };
+		8F151FD52227D431008B974F /* WYNetWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYNetWorking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F151FD82227D431008B974F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F151FD92227D431008B974F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F151FE12227D431008B974F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F151FE42227D431008B974F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F151FE62227D431008B974F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F151FE72227D431008B974F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F151FED2227D432008B974F /* WYNetWorkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYNetWorkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F151FF12227D432008B974F /* WYNetWorkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYNetWorkingTests.m; sourceTree = "<group>"; };
+		8F151FF32227D432008B974F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F151FF82227D432008B974F /* WYNetWorkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYNetWorkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F151FFC2227D432008B974F /* WYNetWorkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYNetWorkingUITests.m; sourceTree = "<group>"; };
+		8F151FFE2227D432008B974F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F6D2DC62227D63500309E7F /* WYNetworkManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYNetworkManage.h; sourceTree = "<group>"; };
+		8F6D2DC72227D63500309E7F /* WYNetworkManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYNetworkManage.m; sourceTree = "<group>"; };
+		8F6D2DC92227D91700309E7F /* WYNetworkCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYNetworkCache.h; sourceTree = "<group>"; };
+		8F6D2DCA2227D91700309E7F /* WYNetworkCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYNetworkCache.m; sourceTree = "<group>"; };
+		8F6D2EBD22290A6700309E7F /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8F6D2EBE22290A6700309E7F /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8F6D2EBF22290A6700309E7F /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		8F6D2EC222290CE700309E7F /* BaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		8F6D2EC322290CE700309E7F /* BaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		8F6D2EC522290E8A00309E7F /* RequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestViewController.h; sourceTree = "<group>"; };
+		8F6D2EC622290E8A00309E7F /* RequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestViewController.m; sourceTree = "<group>"; };
+		8F6D2EC722290E8A00309E7F /* RequestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestViewController.xib; sourceTree = "<group>"; };
+		8F6D2ECA2229212800309E7F /* DownVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownVideoViewController.h; sourceTree = "<group>"; };
+		8F6D2ECB2229212800309E7F /* DownVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownVideoViewController.m; sourceTree = "<group>"; };
+		8F6D2ECC2229212800309E7F /* DownVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DownVideoViewController.xib; sourceTree = "<group>"; };
+		8F6D8D06222E105000B3A5F8 /* UploadImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UploadImageViewController.h; sourceTree = "<group>"; };
+		8F6D8D07222E105000B3A5F8 /* UploadImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UploadImageViewController.m; sourceTree = "<group>"; };
+		8F6D8D08222E105000B3A5F8 /* UploadImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UploadImageViewController.xib; sourceTree = "<group>"; };
+		8F6D8D0B222E114C00B3A5F8 /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpg; sourceTree = "<group>"; };
+		925AE004068576D155125292 /* Pods-WYNetWorkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYNetWorkingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYNetWorkingUITests/Pods-WYNetWorkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A804E76A39B148DA3621EABF /* libPods-WYNetWorkingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYNetWorkingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5E7FDD9A9E870B5741C5EB /* libPods-WYNetWorking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYNetWorking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFB0F58554C672C354E6D8A /* Pods-WYNetWorkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYNetWorkingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYNetWorkingTests/Pods-WYNetWorkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F151FD22227D431008B974F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F27BE7E9D51A73B09C620E /* libPods-WYNetWorking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F151FEA2227D432008B974F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1744C24BFA6683CFE5A33E0C /* libPods-WYNetWorkingTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F151FF52227D432008B974F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3745F3EA3E49D704A3138CC6 /* libPods-WYNetWorkingUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2482B3BB25600F2D41A5730F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB5E7FDD9A9E870B5741C5EB /* libPods-WYNetWorking.a */,
+				A804E76A39B148DA3621EABF /* libPods-WYNetWorkingTests.a */,
+				23F431EC1BEDAD9BF37ABA97 /* libPods-WYNetWorkingUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C0D190D5040B6574BFB8A97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DBBF351E21B0C5F42BDD57F /* Pods-WYNetWorking.debug.xcconfig */,
+				66EF645CCA6071F2D34C7027 /* Pods-WYNetWorking.release.xcconfig */,
+				DDFB0F58554C672C354E6D8A /* Pods-WYNetWorkingTests.debug.xcconfig */,
+				33DDADDDF315E90BCD49EFA9 /* Pods-WYNetWorkingTests.release.xcconfig */,
+				925AE004068576D155125292 /* Pods-WYNetWorkingUITests.debug.xcconfig */,
+				6A5F750E74887A3037770B39 /* Pods-WYNetWorkingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F151FCC2227D431008B974F = {
+			isa = PBXGroup;
+			children = (
+				8F6D8D0B222E114C00B3A5F8 /* 123.jpg */,
+				8F6D2DC52227D57100309E7F /* WYNetworkManager */,
+				8F151FD72227D431008B974F /* WYNetWorking */,
+				8F151FF02227D432008B974F /* WYNetWorkingTests */,
+				8F151FFB2227D432008B974F /* WYNetWorkingUITests */,
+				8F151FD62227D431008B974F /* Products */,
+				4C0D190D5040B6574BFB8A97 /* Pods */,
+				2482B3BB25600F2D41A5730F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F151FD62227D431008B974F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F151FD52227D431008B974F /* WYNetWorking.app */,
+				8F151FED2227D432008B974F /* WYNetWorkingTests.xctest */,
+				8F151FF82227D432008B974F /* WYNetWorkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F151FD72227D431008B974F /* WYNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				8F151FD82227D431008B974F /* AppDelegate.h */,
+				8F151FD92227D431008B974F /* AppDelegate.m */,
+				8F6D2EC222290CE700309E7F /* BaseNavigationViewController.h */,
+				8F6D2EC322290CE700309E7F /* BaseNavigationViewController.m */,
+				8F6D2EBD22290A6700309E7F /* HomeViewController.h */,
+				8F6D2EBE22290A6700309E7F /* HomeViewController.m */,
+				8F6D2EBF22290A6700309E7F /* HomeViewController.xib */,
+				8F6D2EC522290E8A00309E7F /* RequestViewController.h */,
+				8F6D2EC622290E8A00309E7F /* RequestViewController.m */,
+				8F6D2EC722290E8A00309E7F /* RequestViewController.xib */,
+				8F6D2ECA2229212800309E7F /* DownVideoViewController.h */,
+				8F6D2ECB2229212800309E7F /* DownVideoViewController.m */,
+				8F6D2ECC2229212800309E7F /* DownVideoViewController.xib */,
+				8F6D8D06222E105000B3A5F8 /* UploadImageViewController.h */,
+				8F6D8D07222E105000B3A5F8 /* UploadImageViewController.m */,
+				8F6D8D08222E105000B3A5F8 /* UploadImageViewController.xib */,
+				8F151FE12227D431008B974F /* Assets.xcassets */,
+				8F151FE32227D431008B974F /* LaunchScreen.storyboard */,
+				8F151FE62227D431008B974F /* Info.plist */,
+				8F151FE72227D431008B974F /* main.m */,
+			);
+			path = WYNetWorking;
+			sourceTree = "<group>";
+		};
+		8F151FF02227D432008B974F /* WYNetWorkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F151FF12227D432008B974F /* WYNetWorkingTests.m */,
+				8F151FF32227D432008B974F /* Info.plist */,
+			);
+			path = WYNetWorkingTests;
+			sourceTree = "<group>";
+		};
+		8F151FFB2227D432008B974F /* WYNetWorkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F151FFC2227D432008B974F /* WYNetWorkingUITests.m */,
+				8F151FFE2227D432008B974F /* Info.plist */,
+			);
+			path = WYNetWorkingUITests;
+			sourceTree = "<group>";
+		};
+		8F6D2DC52227D57100309E7F /* WYNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				8F6D2DC62227D63500309E7F /* WYNetworkManage.h */,
+				8F6D2DC72227D63500309E7F /* WYNetworkManage.m */,
+				8F6D2DC92227D91700309E7F /* WYNetworkCache.h */,
+				8F6D2DCA2227D91700309E7F /* WYNetworkCache.m */,
+			);
+			path = WYNetworkManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F151FD42227D431008B974F /* WYNetWorking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1520012227D432008B974F /* Build configuration list for PBXNativeTarget "WYNetWorking" */;
+			buildPhases = (
+				3EFBDACC0B06FB83FCE71A49 /* [CP] Check Pods Manifest.lock */,
+				8F151FD12227D431008B974F /* Sources */,
+				8F151FD22227D431008B974F /* Frameworks */,
+				8F151FD32227D431008B974F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYNetWorking;
+			productName = WYNetWorking;
+			productReference = 8F151FD52227D431008B974F /* WYNetWorking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F151FEC2227D432008B974F /* WYNetWorkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1520042227D432008B974F /* Build configuration list for PBXNativeTarget "WYNetWorkingTests" */;
+			buildPhases = (
+				F8E291F3A8E6D49E7FC6AA47 /* [CP] Check Pods Manifest.lock */,
+				8F151FE92227D432008B974F /* Sources */,
+				8F151FEA2227D432008B974F /* Frameworks */,
+				8F151FEB2227D432008B974F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F151FEF2227D432008B974F /* PBXTargetDependency */,
+			);
+			name = WYNetWorkingTests;
+			productName = WYNetWorkingTests;
+			productReference = 8F151FED2227D432008B974F /* WYNetWorkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F151FF72227D432008B974F /* WYNetWorkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1520072227D432008B974F /* Build configuration list for PBXNativeTarget "WYNetWorkingUITests" */;
+			buildPhases = (
+				CE6A192286838FF07449D5A6 /* [CP] Check Pods Manifest.lock */,
+				8F151FF42227D432008B974F /* Sources */,
+				8F151FF52227D432008B974F /* Frameworks */,
+				8F151FF62227D432008B974F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F151FFA2227D432008B974F /* PBXTargetDependency */,
+			);
+			name = WYNetWorkingUITests;
+			productName = WYNetWorkingUITests;
+			productReference = 8F151FF82227D432008B974F /* WYNetWorkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F151FCD2227D431008B974F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Triumen;
+				TargetAttributes = {
+					8F151FD42227D431008B974F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8F151FEC2227D432008B974F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F151FD42227D431008B974F;
+					};
+					8F151FF72227D432008B974F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F151FD42227D431008B974F;
+					};
+				};
+			};
+			buildConfigurationList = 8F151FD02227D431008B974F /* Build configuration list for PBXProject "WYNetWorking" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F151FCC2227D431008B974F;
+			productRefGroup = 8F151FD62227D431008B974F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F151FD42227D431008B974F /* WYNetWorking */,
+				8F151FEC2227D432008B974F /* WYNetWorkingTests */,
+				8F151FF72227D432008B974F /* WYNetWorkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F151FD32227D431008B974F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6D2ECE2229212800309E7F /* DownVideoViewController.xib in Resources */,
+				8F6D8D0C222E116E00B3A5F8 /* 123.jpg in Resources */,
+				8F6D8D0A222E105000B3A5F8 /* UploadImageViewController.xib in Resources */,
+				8F151FE52227D431008B974F /* LaunchScreen.storyboard in Resources */,
+				8F151FE22227D431008B974F /* Assets.xcassets in Resources */,
+				8F6D2EC922290E8A00309E7F /* RequestViewController.xib in Resources */,
+				8F6D2EC122290A6700309E7F /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F151FEB2227D432008B974F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F151FF62227D432008B974F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EFBDACC0B06FB83FCE71A49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WYNetWorking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE6A192286838FF07449D5A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WYNetWorkingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8E291F3A8E6D49E7FC6AA47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WYNetWorkingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F151FD12227D431008B974F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6D2DCB2227D91700309E7F /* WYNetworkCache.m in Sources */,
+				8F6D2EC822290E8A00309E7F /* RequestViewController.m in Sources */,
+				8F6D2ECD2229212800309E7F /* DownVideoViewController.m in Sources */,
+				8F6D8D09222E105000B3A5F8 /* UploadImageViewController.m in Sources */,
+				8F6D2EC422290CE700309E7F /* BaseNavigationViewController.m in Sources */,
+				8F151FE82227D431008B974F /* main.m in Sources */,
+				8F151FDA2227D431008B974F /* AppDelegate.m in Sources */,
+				8F6D2EC022290A6700309E7F /* HomeViewController.m in Sources */,
+				8F6D2DC82227D63500309E7F /* WYNetworkManage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F151FE92227D432008B974F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F151FF22227D432008B974F /* WYNetWorkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F151FF42227D432008B974F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F151FFD2227D432008B974F /* WYNetWorkingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F151FEF2227D432008B974F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F151FD42227D431008B974F /* WYNetWorking */;
+			targetProxy = 8F151FEE2227D432008B974F /* PBXContainerItemProxy */;
+		};
+		8F151FFA2227D432008B974F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F151FD42227D431008B974F /* WYNetWorking */;
+			targetProxy = 8F151FF92227D432008B974F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F151FE32227D431008B974F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F151FE42227D431008B974F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F151FFF2227D432008B974F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F1520002227D432008B974F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F1520022227D432008B974F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DBBF351E21B0C5F42BDD57F /* Pods-WYNetWorking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VS4NQTQ7CZ;
+				INFOPLIST_FILE = WYNetWorking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaomeng.WYNetWorking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F1520032227D432008B974F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EF645CCA6071F2D34C7027 /* Pods-WYNetWorking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VS4NQTQ7CZ;
+				INFOPLIST_FILE = WYNetWorking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaomeng.WYNetWorking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F1520052227D432008B974F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFB0F58554C672C354E6D8A /* Pods-WYNetWorkingTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VS4NQTQ7CZ;
+				INFOPLIST_FILE = WYNetWorkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaomeng.WYNetWorkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYNetWorking.app/WYNetWorking";
+			};
+			name = Debug;
+		};
+		8F1520062227D432008B974F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33DDADDDF315E90BCD49EFA9 /* Pods-WYNetWorkingTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VS4NQTQ7CZ;
+				INFOPLIST_FILE = WYNetWorkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaomeng.WYNetWorkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYNetWorking.app/WYNetWorking";
+			};
+			name = Release;
+		};
+		8F1520082227D432008B974F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 925AE004068576D155125292 /* Pods-WYNetWorkingUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VS4NQTQ7CZ;
+				INFOPLIST_FILE = WYNetWorkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaomeng.WYNetWorkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WYNetWorking;
+			};
+			name = Debug;
+		};
+		8F1520092227D432008B974F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5F750E74887A3037770B39 /* Pods-WYNetWorkingUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VS4NQTQ7CZ;
+				INFOPLIST_FILE = WYNetWorkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaomeng.WYNetWorkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WYNetWorking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F151FD02227D431008B974F /* Build configuration list for PBXProject "WYNetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F151FFF2227D432008B974F /* Debug */,
+				8F1520002227D432008B974F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1520012227D432008B974F /* Build configuration list for PBXNativeTarget "WYNetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1520022227D432008B974F /* Debug */,
+				8F1520032227D432008B974F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1520042227D432008B974F /* Build configuration list for PBXNativeTarget "WYNetWorkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1520052227D432008B974F /* Debug */,
+				8F1520062227D432008B974F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1520072227D432008B974F /* Build configuration list for PBXNativeTarget "WYNetWorkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1520082227D432008B974F /* Debug */,
+				8F1520092227D432008B974F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F151FCD2227D431008B974F /* Project object */;
+}

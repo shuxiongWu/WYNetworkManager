@@ -7,7 +7,7 @@ s.license      = { :type => "MIT", :file => "LICENSE" }
 s.authors      = {'wushuxiong' => '18779884209@163.com'}
 s.platform     = :ios, '9.0'
 s.source       = {:git => 'https://github.com/shuxiongWu/WYNetworkManager.git', :tag => s.version}
-s.source_files = 'WYNetworkManager/**/*.{h,m}'
+s.source_files = 'WYNetworkManager/*.{h,m}'
 
 s.dependency 'AFNetworking'
 s.dependency 'YYCache'

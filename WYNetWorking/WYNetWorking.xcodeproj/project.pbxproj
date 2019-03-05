@@ -27,7 +27,6 @@
 		8F6D2ECE2229212800309E7F /* DownVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F6D2ECC2229212800309E7F /* DownVideoViewController.xib */; };
 		8F6D8D09222E105000B3A5F8 /* UploadImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D8D07222E105000B3A5F8 /* UploadImageViewController.m */; };
 		8F6D8D0A222E105000B3A5F8 /* UploadImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F6D8D08222E105000B3A5F8 /* UploadImageViewController.xib */; };
-		8F6D8D0C222E116E00B3A5F8 /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F6D8D0B222E114C00B3A5F8 /* 123.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,7 +83,6 @@
 		8F6D8D06222E105000B3A5F8 /* UploadImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UploadImageViewController.h; sourceTree = "<group>"; };
 		8F6D8D07222E105000B3A5F8 /* UploadImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UploadImageViewController.m; sourceTree = "<group>"; };
 		8F6D8D08222E105000B3A5F8 /* UploadImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UploadImageViewController.xib; sourceTree = "<group>"; };
-		8F6D8D0B222E114C00B3A5F8 /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpg; sourceTree = "<group>"; };
 		925AE004068576D155125292 /* Pods-WYNetWorkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYNetWorkingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYNetWorkingUITests/Pods-WYNetWorkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A804E76A39B148DA3621EABF /* libPods-WYNetWorkingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYNetWorkingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5E7FDD9A9E870B5741C5EB /* libPods-WYNetWorking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYNetWorking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,7 +143,6 @@
 		8F151FCC2227D431008B974F = {
 			isa = PBXGroup;
 			children = (
-				8F6D8D0B222E114C00B3A5F8 /* 123.jpg */,
 				8F6D2DC52227D57100309E7F /* WYNetworkManager */,
 				8F151FD72227D431008B974F /* WYNetWorking */,
 				8F151FF02227D432008B974F /* WYNetWorkingTests */,
@@ -332,7 +329,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F6D2ECE2229212800309E7F /* DownVideoViewController.xib in Resources */,
-				8F6D8D0C222E116E00B3A5F8 /* 123.jpg in Resources */,
 				8F6D8D0A222E105000B3A5F8 /* UploadImageViewController.xib in Resources */,
 				8F151FE52227D431008B974F /* LaunchScreen.storyboard in Resources */,
 				8F151FE22227D431008B974F /* Assets.xcassets in Resources */,

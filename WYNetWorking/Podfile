@@ -8,6 +8,8 @@ target 'WYNetWorking' do
   # Pods for WYNetWorking
   pod 'AFNetworking'
   pod 'YYCache'
+  pod 'WYNetworkManager'
+  
 
   target 'WYNetWorkingTests' do
     inherit! :search_paths

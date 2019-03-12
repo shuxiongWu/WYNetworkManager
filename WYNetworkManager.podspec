@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = 'WYNetworkManager'
-s.version      = '0.0.8'
+s.version      = '0.0.9'
 s.summary      = '网络请求管理类'
 s.homepage     = 'https://github.com/shuxiongWu/WYNetworkManager.git'
 s.license      = { :type => "MIT", :file => "LICENSE" }

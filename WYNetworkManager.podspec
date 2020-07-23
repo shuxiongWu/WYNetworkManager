@@ -9,7 +9,7 @@ s.platform     = :ios, '8.0'
 s.source       = {:git => 'https://github.com/shuxiongWu/WYNetworkManager.git', :tag => s.version}
 s.source_files = 'WYNetWorking/WYNetworkManager/*.{h,m}'
 
-s.dependency 'AFNetworking', '~> 4.0.1'
+s.dependency 'AFNetworking'
 s.dependency 'YYCache'
 s.requires_arc = true
 
